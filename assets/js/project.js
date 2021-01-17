@@ -8,7 +8,7 @@ const projects = [
     description: "An Android app for owners to inventory items, further visible for customer to check their availability.",
     tag: "Kotlin, Android Studio, SQLite",
     use: "Utility",
-    Githublink: "https://github.com/namanmolri/Inventory-Manager",
+    Githublink: "https://github.com/namanmolri/Inventory-Manager/blob/main/README.md",
   },
   {
     title: "Labyrinth Marble Game",
