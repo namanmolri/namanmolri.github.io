@@ -36,7 +36,7 @@ if (allElements.length > 0) {
 				let spans = txtElement.childNodes;
 
 				// It sets the interval between each letter showing
-				const letterInterval = setInterval(activeLetter, 70);
+				const letterInterval = setInterval(activeLetter, 60);
 
 				function activeLetter() {
 					spans[count].classList.add('active');
@@ -47,7 +47,7 @@ if (allElements.length > 0) {
 
 						setTimeout(() => {
 							eraseText();
-						}, 1500);
+						}, 1000);
 					}
 				}
 

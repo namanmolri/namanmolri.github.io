@@ -16,23 +16,23 @@ const projects = [
     description: "The labyrinth marble game built for Android using Unity and Android Studio.",
     tag: "C#, Kotlin, Java, Game Dev",
     use: "Game Dev",
-    Githublink: "https://github.com/namanmolri/Marble-Maze-Game",
+    Githublink: "https://github.com/namanmolri/Marble-Maze-Game/blob/main/README.md",
   },
   {
     title: "Neat Bot",
     cardImage: "assets/images/discord_bot.png",
     description: "Discord Server bot with greeter function. Will also fetch movie and weather data using Open Source API.",
-    tag: "React.js",
+    tag: "JavaScript",
     use: "Utility",
-    Githublink: "https://github.com/namanmolri/NeatBot",
+    Githublink: "https://github.com/namanmolri/NeatBot/blob/main/README.md",
   },
   {
     title: "Small C-Compiler",
     cardImage: "assets/images/ocaml.png",
     description: "Compiler to identify and compile basic operations and functions written in C.",
-    tag: "Ocaml",
+    tag: "OCaml",
     use: "Utility",
-    Githublink: "https://github.com/namanmolri/Small-C-parser",
+    Githublink: "https://github.com/namanmolri/Small-C-parser/blob/main/README.md",
   }
 ];
 

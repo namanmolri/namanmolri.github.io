@@ -4,7 +4,7 @@
 <head>
     <title>Naman Molri | Home</title>
     <meta charset="UTF-8">
-    <link rel="icon" href="assets/images/open_page.png">
+    <link rel="icon" href="assets/images/title_icon.png">
 
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
     
@@ -58,7 +58,7 @@
                 <img class="animate__animated animate__zoomIn animate__delay-0s" src="assets/images/open_page.png" alt="" height="350" width="300">
             </div>
             <p>I am into <h1 class="animated-text animate__animated animate__zoomIn animate__delay-0s"
-                data-words=" Software Development,  Mobile Development,  UI/UX,  Web Development"></h1>
+                data-words=" Software Development,  Mobile Development,  User Experience,  Web Development, Cloud Computing, Data Science, Game Development"></h1>
             </p>
             <div>
                 <div class="social-icons">
@@ -98,16 +98,15 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-9 text-left" style="font-size: 1.4em">
-                <p class="mb-5 lead animate__animated animate__zoomIn animate__delay-0s" style="line-height: 1.75rem;"> <h5=6><ol style="list-style-type: circle;"><li>I am a Computer Science Junior at the University of Maryland.</li><li>Currently developing Android applications and games using Unity. Dabbling with AWS to learn Cloud services and computing.</li><li>Interested in Software development, Mobile development and UI/UX designing. Taking courses in Data Science and Management to further my personal and academic interests in that direction.</li></ol></h6> <br>
+            <div class="col-md-11 text-left" style="font-size: 1.6em">
+                <p class="mb-5 lead animate__animated animate__zoomIn animate__delay-0s" style="line-height: 1.75rem;"> <h5=6><ol style="list-style-type: circle;"><li>I am a Computer Science student at the University of Maryland.</li><li>Currently developing Android applications and games using Unity. Dabbling with AWS to learn Cloud services and computing.</li><li>Interested in software development, mobile development and UI/UX designing. Taking courses in Data Science and Management to further my personal and academic interests in that direction.</li></ol></h6> <br>
 
                    
                 </p>
             </div>
         </div>
 
-        <!-- 4 Block - Data is being recieved from home.js -->
-        <div class="row row-cols-md-4 row-cols-1 text-center align-items-stretch about-myself">
+        <div class="row row-cols-3 text-center about-myself">
 
             <script type="text/javascript">
                 //main container as where we should add the data
@@ -127,13 +126,8 @@ var aboutCards = [
     {
         icon: 'fas fa-4x fa-gamepad',
         title: 'Hobbies',
-        desc: 'App Development <br><br> Table Tennis <br><br> Cooking <br><br> Hiking'
+        desc: 'App and Android game development <br><br> Table Tennis, Board games <br><br> Hiking, Cooking <br><br> Reading philosophy'
     },
-    {
-        icon: 'fas fa-4x fa-heart',
-        title: 'Passions',
-        desc: 'Android game dev <br><br> Philosophy <br><br> Board Games <br><br> Solving Combinatorial problem'
-    }
     
 ]
 
@@ -168,16 +162,17 @@ document.addEventListener("DOMContentLoaded", displayCards);
         <div>
         <div style="max-width: 1500px;">
           <div class="row no-gutters" align="center">
-            <div class="col-md-4 ">
-              <img class="animate__animated animate__zoomIn animate__delay-0s" src="assets/images/resume.png" style="max-width: 800px">
-            </div>
-            <div class="col-md-8">
+            <div class="col-md-12">
               <div class="card-body mod-card-body">
                 <a class="btn btn-primary animate__animated animate__zoomIn animate__delay-0s"
                   href="assets/images/resume.pdf" target="blank"
                   role="button" download>Download</a>
               </div>
             </div>
+            <div class="col-md-12 text-center ">
+              <img class="animate__animated animate__zoomIn animate__delay-0s" src="assets/images/resume.png" style="max-width: 500px">
+            </div>
+            
           </div>
         </div>
       </section>
@@ -194,31 +189,11 @@ document.addEventListener("DOMContentLoaded", displayCards);
         let footer = $(`
 <footer class="webintern-footer">
     <div class="footer-left">
-      <div style="color: white;" class="footer-text animate__animated animate__zoomIn animate__delay-0s">
+      <div style="color: white;" class="col-md-12 text-center animate__animated animate__zoomIn animate__delay-0s">
         <p ><strong><h5>“Simplicity, carried to the extreme, becomes elegance.”
 — Jon Franklin</h5></strong></p>
       </div>
-      <div class="footer-icons animate__animated animate__zoomIn animate__delay-0s">
-      <a class="socialicon linkedin" href="https://www.linkedin.com/in/naman-molri-94153b92/" target="_blank" rel="author">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-
-                    <a class="socialicon github" href="https://github.com/namanmolri" target="_blank"rel="author">
-                        <i class="fab fa-github"></i>
-                    </a>
-
-                    <a class="socialicon gmail"  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=naman.m31@gmail.com&body=Hi Naman," target="_blank" rel="author">
-                        <i id="mail" class="fa fa-envelope" ></i>
-                    </a>
-
-                    <a class="socialicon instagram" href="https://www.instagram.com/namanmolri/" target="_blank" rel="author">
-                        <i class="fab fa-instagram"></i>
-                    </a> 
-
-                    <a class="socialicon twitter" href="https://twitter.com/namanmolri" target="_blank" rel="author">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-        </div>
+      
     </div>
     
     
@@ -227,7 +202,7 @@ document.addEventListener("DOMContentLoaded", displayCards);
     let bodyElem  = $('body')
     bodyElem.append(footer);
     </script>
-    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+
     
     <script src="assets/js/animated_text.js"></script>
 

@@ -5,7 +5,7 @@
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="index.html" class="brand-logo"><img src="assets/images/logo.png"></a>
+    <a href="index.html" class="brand-logo"><img src="assets/images/logo_3.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
