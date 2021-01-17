@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="Dark">
+
+<head>
+    <title>Naman Molri | Home</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/images/open_page.png">
+
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+   
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css"> 
+    
+    
+
+    
+    <style> 
+        body { 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+    </style> 
+</head>
+
+<body>
+
+    <!--Dynamic Nav Bar-->
+
+    <!--Parallax effect-->
+    <div class="parallax-container" id="home">
+        <div class="parallax">
+            <section class="center">
+                <div id="particles-js"></div>
+            </section>
+        </div>
+    </div>
+
+    
+
+    <!-- Home Section -->
+    <div class="text center col-sm-6 pt-5 mt-5 mb-5 animate__animated animate__zoomIn animate__delay-0s">Hi, I'm <span style="color: #f06d06">Naman Molri</span>
+        <div class="center">
+            <div>
+                <img class="animate__animated animate__zoomIn animate__delay-0s" src="assets/images/open_page.png" alt="" height="350" width="300">
+            </div>
+            <p>I am into <h1 class="animated-text animate__animated animate__zoomIn animate__delay-0s"
+                data-words=" Software Development,  Mobile Development,  UI/UX,  Web Development"></h1>
+            </p>
+            <div>
+                <div class="social-icons">
+
+                    <a class="socialicon linkedin" href="https://www.linkedin.com/in/naman-molri-94153b92/" target="_blank" rel="author">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a class="socialicon github" href="https://github.com/namanmolri" target="_blank"rel="author">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a class="socialicon gmail"  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=naman.m31@gmail.com&body=Hi Naman," target="_blank" rel="author">
+                        <i id="mail" class="fa fa-envelope" ></i>
+                    </a>
+
+                    <a class="socialicon instagram" href="https://www.instagram.com/namanmolri/" target="_blank" rel="author">
+                        <i class="fab fa-instagram"></i>
+                    </a> 
+
+                    <a class="socialicon twitter" href="https://twitter.com/namanmolri" target="_blank" rel="author">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="container-fluid py-5 my-3" id="about">
+        <div class="row justify-content-center">
+            <div class="col-md-9 text-center">
+                <h2 class="mb-3">
+                    <span class="text-red animate__animated animate__zoomIn animate__delay-0s">About Me</span>
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-9 text-left" style="font-size: 1.4em">
+                <p class="mb-5 lead animate__animated animate__zoomIn animate__delay-0s" style="line-height: 1.75rem;"> <h5=6><ol style="list-style-type: circle;"><li>I am a Computer Science Junior at the University of Maryland.</li><li>Currently developing Android applications and games using Unity. Dabbling with AWS to learn Cloud services and computing.</li><li>Interested in Software development, Mobile development and UI/UX designing. Taking courses in Data Science and Management to further my personal and academic interests in that direction.</li></ol></h6> <br>
+
+                   
+                </p>
+            </div>
+        </div>
+
+        <!-- 4 Block - Data is being recieved from home.js -->
+        <div class="row row-cols-md-4 row-cols-1 text-center align-items-stretch about-myself">
+
+            <script type="text/javascript">
+                //main container as where we should add the data
+var aboutContainer = document.querySelector('.about-myself')
+//array containing objects with details to be shown
+var aboutCards = [
+    {
+        icon: 'far fa-4x fa-file-code',
+        title: 'Languages',
+        desc: 'Java, JS, Kotlin <br><br> C, C++ <br><br> Ruby, OCaml <br><br> HTML, CSS, XML'
+    },
+    {
+        icon: 'fa fa-4x fa-search',
+        title: 'Technologies',
+        desc: 'NodeJS, React <br><br> Discord API discord.js <br><br> Git, MATLAB <br><br> Android Studio, Eclipse'
+    },
+    {
+        icon: 'fas fa-4x fa-gamepad',
+        title: 'Hobbies',
+        desc: 'App Development <br><br> Table Tennis <br><br> Cooking <br><br> Hiking'
+    },
+    {
+        icon: 'fas fa-4x fa-heart',
+        title: 'Passions',
+        desc: 'Android game dev <br><br> Philosophy <br><br> Board Games <br><br> Solving Combinatorial problem'
+    }
+    
+]
+
+//function to display cards on the home page
+function displayCards(){
+    let output = ""
+    aboutCards.forEach(({icon, title, desc}) => {
+        output += `<div class="col">
+                <div class="card animate__animated animate__zoomIn animate__delay-0s">
+                    <div style="width:120px;height:120px; align-items-center"
+                        class="card-img mx-auto mt-5 d-flex justify-content-center align-items-center rounded-circle">
+                        <i class="${icon}"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">${title}</h5>
+                        <p>${desc}</p>
+                    </div>
+                </div>
+            </div>`
+    })
+    //ading contents to the container
+    aboutContainer.innerHTML = output
+}
+
+document.addEventListener("DOMContentLoaded", displayCards);
+            </script>
+                        
+        </div>
+    </section>
+<section>
+    <section>
+        <div>
+        <div style="max-width: 1500px;">
+          <div class="row no-gutters" align="center">
+            <div class="col-md-4 ">
+              <img class="animate__animated animate__zoomIn animate__delay-0s" src="assets/images/resume.png" style="max-width: 800px">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mod-card-body">
+                <a class="btn btn-primary animate__animated animate__zoomIn animate__delay-0s"
+                  href="assets/images/resume.pdf" target="blank"
+                  role="button" download>Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<br>
+
+</section>
+    <!-- Dynamic footer section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        let footer = $(`
+<footer class="webintern-footer">
+    <div class="footer-left">
+      <div style="color: white;" class="footer-text animate__animated animate__zoomIn animate__delay-0s">
+        <p ><strong><h5>“Simplicity, carried to the extreme, becomes elegance.”
+— Jon Franklin</h5></strong></p>
+      </div>
+      <div class="footer-icons animate__animated animate__zoomIn animate__delay-0s">
+      <a class="socialicon linkedin" href="https://www.linkedin.com/in/naman-molri-94153b92/" target="_blank" rel="author">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a class="socialicon github" href="https://github.com/namanmolri" target="_blank"rel="author">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a class="socialicon gmail"  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=naman.m31@gmail.com&body=Hi Naman," target="_blank" rel="author">
+                        <i id="mail" class="fa fa-envelope" ></i>
+                    </a>
+
+                    <a class="socialicon instagram" href="https://www.instagram.com/namanmolri/" target="_blank" rel="author">
+                        <i class="fab fa-instagram"></i>
+                    </a> 
+
+                    <a class="socialicon twitter" href="https://twitter.com/namanmolri" target="_blank" rel="author">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+        </div>
+    </div>
+    
+    
+    </footer>`);
+
+    let bodyElem  = $('body')
+    bodyElem.append(footer);
+    </script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    
+    <script src="assets/js/animated_text.js"></script>
+
+</body>
+
+</html>
