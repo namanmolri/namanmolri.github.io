@@ -19,7 +19,7 @@ const exp = [
   },
   {
     title: "Office Assistant",
-    cardImage: "assets/images/capri.png",
+    cardImage: "assets/images/pace.png",
     place: "Pace Jr. College",
     time: "(Feburary, 2016 - March, 2017)",
     desp: "<li> Managed the social marketing for the college events such as cultural festivals and sport clubs.</li><li>Worked on and handled many event and main websites for the school.</li> "

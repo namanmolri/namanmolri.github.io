@@ -5,7 +5,8 @@ html[data-theme="light"] {
   --bg-footer: #000000;
   --bg: #ffffff;
   --text: #000000;
-  --text-color: #000000;
+  --text-color: #6c757d;
+  --text-color-about: #000000;
   --col-icon: #ffffff;
   --color-underline: red;
   --col-bd-radius:rgb(2, 2, 2);
@@ -34,6 +35,7 @@ html[data-theme="dark"] {
   --bg: #191919;
   --text: #ffffff;
   --text-color: #ffffff;
+   --text-color-about: #ffffff;
   --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
   --txt-fill: transparent;
   --col-icon: white;
@@ -255,7 +257,7 @@ html.transition *:after {
 /* About Section */
 #about .card{
   background-color: var(--bg);
-  color: var(--text-color);
+  color: var(--text-color-about);
   transform: scale(.97);
   cursor: pointer;
   transition: all .3s ease-in-out;
