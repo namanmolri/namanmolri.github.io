@@ -2,11 +2,13 @@
 
 //Footer and Navbar
 
+
+
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
     <a href="index.html" class="brand-logo"><img src="assets/images/logo_3.png"></a>
-    <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
+    <a data-toggle="collapse" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="index.html">Home</a></li>
@@ -35,9 +37,9 @@ let header = $(`
 
 <!--Side Nav Bar -->
 <ul class="sidenav" id="mobile-demo">
-<li><a class="sidenav-close" href="#!"><i class="material-icons">close</i></a></li>
+<li><a class="sidenav-close" href="https//:namanmolri.github.io"><i class="material-icons">close</i></a></li>
 <li><a href="index.html">Home</a></li>
-<li><a href="experience.html">Experience & Volunteering</a></li>
+<li><a href="experience.html">Experience</a></li>
 <li><a href="projects.html">Projects</a></li>
 <li><a href="education.html">Education</a></li>
 

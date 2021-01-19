@@ -2,11 +2,12 @@
 html[data-theme="light"] {
   --bg-nav:black;
   --bg-nav-img: black;
-  --bg-footer:black;
+  --bg-footer: #000000;
   --bg: #ffffff;
   --text: #000000;
   --text-color: #000000;
   --col-icon: #ffffff;
+  --color-underline: red;
   --col-bd-radius:rgb(2, 2, 2);
   --col-box-shadow:#000000 2px 2px 4px, 
   #4D4D4D -2px -2px 4px;
@@ -38,6 +39,7 @@ html[data-theme="dark"] {
   --col-icon: white;
   --col-bd-radius:black;
   --col-bd-icon:transparent;
+  --color-underline: white;
   --col-box-shadow: 5px 5px 10px rgba(22, 21, 21, 0.7) , -5px -5px 10px rgba(255,255,255,0.1);
   --col-box-shadow-hover:inset rgba(255, 255, 255, 1) 2px 2px 4px, 
  inset rgba(255, 255, 255, 0.5) -2px -2px 4px;
@@ -87,7 +89,7 @@ html {
 
 .nav-wrapper a:hover,
 .sidenav a:hover {
-  text-decoration: underline red;
+  text-decoration: underline var(--color-underline);
 }
 
 .sidenav{
@@ -96,10 +98,11 @@ html {
 .nav-wrapper {
   margin-left: 10px;
   margin-right: 10px;
-}
-/*Navbar dark mode(research page)*/
 
-.black {
+}
+
+
+.nav-color {
   background-color: var(--bg-nav);
   background-image: var(--bg-nav-img);
 }
@@ -112,6 +115,7 @@ html {
 }
 .sidenav-trigger {
   margin-left: 0px !important;
+
 }
 
 .brand-logo img {

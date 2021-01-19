@@ -3,7 +3,6 @@ html[data-theme = 'light']
   --bg-col: #fafafa;
   --shadow1: rgba(0, 0, 0, 0.3);
   --shadow2: rgba(0, 0, 0, 0.2);
-
   --neu-light: white;
   --neu-dark: #c3c3c3;
   --neu-color: #c3c3c3;
@@ -39,6 +38,7 @@ a:hover {
 .skill-card{
 	border: none;
 }
+
 
 .row{
   display: flex;
