@@ -1,5 +1,5 @@
 /*CSS variable declaration for light/dark mode*/
-html[data-theme="light"] {
+html {
   --bg-nav:black;
   --bg-nav-img: black;
   --bg-footer: #000000;
