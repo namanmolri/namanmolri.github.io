@@ -4,25 +4,25 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Back End Developer",
+    cardImage: "assets/images/sph.png",
+    place: "School of Public Health @ UMD",
+    time: "(June, 2021 - Present)",
+    desp: "<li> Managing the server and all backend endpoints for the HealthyMe application.</li> <li> Used express.js to build and libraries like passport.js and surpise to enhance functionalities.</li> <li>Uses AWS EC@ to host the server instance and SNS and other facilities for communication.</li>"
+  },
+  {
+    title: "Data Scientist",
+    cardImage: "assets/images/dsintern.jpeg",
+    place: "School of Architecture, Planning & Preservation",
+    time: "(Feburary, 2021 - Present)",
+    desp: "<li>Researching, extracting and using data scraped regarding Urban Planning and related projects.</li><li>Building, graphs, predictive models and linear regressions to aid the research project.</li><li>Using Python, Pandas, NumPy, SckiKit Learn and other relevant technologies.</li>",
+  },
+  {
     title: "Technical Support Intern",
     cardImage: "assets/images/capri.png",
     place: "Capri Global Ltd",
     time: "(June, 2017 - September, 2017)",
     desp: "<li>  Provided technical support via calls and email for Customer relationship management (CRM) software called CUBE.</li> <li> Used Excel and in-house software to process and document employee data and provide IT support.</li> "
-  },
-  {
-    title: "Student Librarian",
-    cardImage: "assets/images/umd_2.png",
-    place: "University of Maryland",
-    time: "(August, 2018 - November, 2018)",
-    desp: "<li>Worked in the library managing students, technology and the book area.</li><li>Used library software to manage outgoing/incoming books and student data.</li><li>Helped with daily tasks, such as, opening and closing the library, reshelving books and helping with library software and technology.</li>",
-  },
-  {
-    title: "Office Assistant",
-    cardImage: "assets/images/pace.png",
-    place: "Pace Jr. College",
-    time: "(Feburary, 2016 - March, 2017)",
-    desp: "<li> Managed the social marketing for the college events such as cultural festivals and sport clubs.</li><li>Worked on and handled many event and main websites for the school.</li> "
   }
 ];
 
