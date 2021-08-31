@@ -3,20 +3,20 @@
 const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
+    title: "Housing Data Analysis",
+    cardImage: "assets/images/data_analysis.png",
+    description: "Predictive data analysis on the effect of COVID-19 on US affordable Housing.",
+    tag: "Python, Pandas, Numpy, Seaborn, scikit-learn",
+    use: "Data Analysis",
+    Githublink: "https://housingdataanalytics.github.io/",
+  },
+  {
     title: "Inventory Manager",
     cardImage: "assets/images/imapp.png",
     description: "An Android app for owners to inventory items, further visible for customer to check their availability.",
     tag: "Kotlin, Android Studio, SQLite",
     use: "Utility",
     Githublink: "https://github.com/namanmolri/Inventory-Manager/blob/main/README.md",
-  },
-  {
-    title: "Labyrinth Marble Game",
-    cardImage: "assets/images/labyrinth.png",
-    description: "The labyrinth marble game built for Android using Unity and Android Studio.",
-    tag: "C#, Kotlin, Java, Game Dev",
-    use: "Game Dev",
-    Githublink: "https://github.com/namanmolri/Marble-Maze-Game/blob/main/README.md",
   },
   {
     title: "Neat Bot",
